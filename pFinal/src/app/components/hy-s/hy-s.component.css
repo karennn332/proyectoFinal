@@ -1,0 +1,9 @@
+.row{
+    padding: 20px;
+    background-color:rgb(42, 19, 80) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: black 8px groove;
+}
+h1{
+    color: chocolate;
+}
