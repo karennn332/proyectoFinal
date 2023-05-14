@@ -3,8 +3,11 @@
     color: chocolate;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: black 8px groove;
     background-color:rgb(42, 19, 80) ;
+}
+.table{
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .conteiner{
     width: auto;

@@ -21,7 +21,7 @@ ngOnInit(): void {
   const id = this.activateRouter.snapshot.params['id'];
     this.personaService.detail(id).subscribe(
       data=>{
-        this.router.navigate(['']);
+        this.persona = data;
       }, err =>{
         alert("error al modificar ");
         this.router.navigate(['']);
@@ -36,14 +36,14 @@ onUpdate(): void{
     data=>{
       this.router.navigate(['']);
     }, err =>{
-      alert("error al modificar la educacion");
+      alert("error al modificar");
       this.router.navigate(['']);
     }
   )
 }
 
 uploadImage($event:any){
-const id = this.activateRouter.snapshot.params['id'];
+  const id = this.activateRouter.snapshot.params['id'];
 const name = "perfil_" + id;
 this.imageService.uploadImage($event, name)
 }

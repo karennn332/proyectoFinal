@@ -1,21 +1,21 @@
-         <div>
+         <div class="row">
             <button type="button" class="btn btn-danger" routerLink="/editacercade/1" *ngIf="isLogged">
                 Editar persona
                </button>
         </div>
-        <div class="row" *ngIf="persona">  
+        <div class="row">  
 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-    <img src="{{persona?.img}}" class="img-fluid" id="fotoPerfil">
+    <img src={{persona.img}} class="img-fluid" id="fotoPerfil">
 </div>
 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-    <p id="nombre">{{persona?.nombre}} {{persona?.apellido}}</p>
+    <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
     <h5>Full Stack Developer Jr</h5>
 </div>
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
     <span>
         <h1>Acerca de mi </h1>
-    <p>{{persona?.descripcion}}</p>
+    <p>{{persona.descripcion}}</p>
     </span>
-</div>
+</div> 
 
 </div>

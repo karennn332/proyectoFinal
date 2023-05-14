@@ -24,8 +24,8 @@ URL = 'https://backendkd.onrender.com/personas/';
     return this.httpClient.post<any>(this.URL + 'create', educacion);
   }*/
 
-  public update(id: number, Persona : persona): Observable<any>{
-    return this.httpClient.put<any>(this.URL + `update/${id}`, persona); 
+  public update(id: number, Persona: persona): Observable<any>{
+    return this.httpClient.put<any>(this.URL + `update/${id}`, Persona); 
   }
 /*
   public delete(id: number):Observable<any>{

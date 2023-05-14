@@ -9,21 +9,24 @@
     <div class="col-lg- col-md-1"></div>
     <div class="col-lg-11 col-md-11">
         <table class="table">
+            
             <tbody>
              <tr *ngFor="let Educacion of educacion">
                  <td><h2>{{Educacion.nombreE}}</h2></td>
                  <td>{{Educacion.descripcionE}}</td>
-                     <td >
-                        <button class="btn btn-secondary" routerLink="/editedu/{{Educacion.id}}" *ngIf="isLogged">
+                     
+        
+                        
+                       <td> <button class="btn btn-secondary" routerLink="/editedu/{{Educacion.id}}" *ngIf="isLogged">
                         <i class="fa-solid fa-pencil"></i>Editar</button></td>
 
                      <td>
                         <button class="btn btn-danger" (click)="delete(Educacion.id)" *ngIf="isLogged">
-                        Borrar </button></td>
+                      <i class="fa-duotone fa-xmark"></i> Borrar </button></td>
              </tr>
             </tbody>
          </table>
-    </div>
+        </div>
+        
    
 
-</div>

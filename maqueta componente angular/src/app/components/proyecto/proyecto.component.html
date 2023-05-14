@@ -1,15 +1,29 @@
 <div class="row">
-    <h1> Proyectos realizados</h1>
-<div class="conteiner">
-    <div class="col-sm-12 col-md-7 col-lg-7 parte1">
-    <h2>Portfolio web</h2>
-    <p>Esta aplicación es de arquitectura distribuida y contiene un
-        diseño de interfaz de usuario (front end) que muestra la información, una base de datos que almacena los datos antes mencionados y cuenta
-        con las APIs necesarias para proveer a través de internet la información (back end)</p>
+    <h1>Proyectos</h1> 
+    <div class="col-lg-2">
+     <button type="button" class="btn btn-danger" routerLink="/newproyecto/" *ngIf="isLogged">
+      Agregar Proyectos
+     </button>
     </div>
-<div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
-<img src="../../../assets/img/2023-03-16 (1).png"
-class="img-fluid" >
-</div>
-</div>
+    
+    <div class="col-lg- col-md-1"></div>
+    <div class="col-lg-11 col-md-11">
+        <table class="table">
+            <tbody>
+             <tr *ngFor="let Proyectos of proyectos">
+                 <td><h2>{{Proyectos.nombreP}}</h2></td>
+                 <td>{{Proyectos.descripcionP}}</td>
+                     <td >
+                        <button class="btn btn-secondary" routerLink="/editproyecto/{{Proyectos.id}}" *ngIf="isLogged">
+                        <i class="fa-solid fa-pencil"></i>Editar</button></td>
+
+                     <td>
+                        <button class="btn btn-danger" (click)="delete(Proyectos.id)" *ngIf="isLogged">
+                        <i class="fa-duotone fa-xmark"></i> Borrar </button></td>
+             </tr>
+            </tbody>
+         </table>
+    </div>
+   
+
 </div>
