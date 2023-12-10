@@ -11,7 +11,7 @@ import { JwtDto } from '../model/jwt-dto';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = 'https://backendkd.onrender.com/auth/';
+  URL = 'https://portfolio-backend.railway.internal/auth/';
 
   constructor(private httpClient:HttpClient) { }
 

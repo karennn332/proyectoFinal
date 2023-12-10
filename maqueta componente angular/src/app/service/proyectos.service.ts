@@ -8,7 +8,7 @@ import { Proyectos } from '../model/proyectos';
 })
 export class ProyectosService {
 
-  URL = 'https://backendkd.onrender.com/proyectos/';
+  URL = 'https://portfolio-backend.railway.internal/proyectos/';
 
   constructor(private  httpClient : HttpClient) { }
 
