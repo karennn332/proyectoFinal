@@ -8,9 +8,19 @@
     width: 150px;
 }
 .fa-brands, button {
-    color: chocolate;
+   
+    color: rgb(52, 54, 55);
    
 }
 .redes{
-    margin-right: 0.5rem;
+    margin-right: 0,5rem;
+    margin-left: auto;
+    margin-top: 0,5rem;
+}
+.row{
+    background-color: rgb(210, 187, 255);
+}
+.btn-dark{
+    
+    color: blueviolet;
 }

@@ -1,14 +1,22 @@
 .row{
     padding: 20px;
-    color: chocolate;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(42, 19, 80) ;
+    color: rgb(108, 104, 101);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(210, 187, 255);
 }
 
 .table{
-    color: chocolate;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(108, 104, 101);
+    font-family: 'Courier New', Courier, monospace;
 }
+
+
+
+
+
+
+
+
 #parraEstudios{
     font-size: 20px;
 }
