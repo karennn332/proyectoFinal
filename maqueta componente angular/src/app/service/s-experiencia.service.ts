@@ -8,7 +8,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  URL = 'https://portfolio-backend.railway.internal/explab/' ;
+  URL = 'https://backchallenge-production.up.railway.app/explab/' ;
 
 
 

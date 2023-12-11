@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = 'https://portfolio-backend.railway.internal/educacion/';
+  URL = 'https://backchallenge-production.up.railway.app/educacion/';
 
   constructor(private  httpClient : HttpClient) { }
 

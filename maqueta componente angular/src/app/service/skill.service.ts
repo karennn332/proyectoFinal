@@ -8,7 +8,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = 'https://portfolio-backend.railway.internal/skill/' ;
+  URL = 'https://backchallenge-production.up.railway.app/skill/' ;
 
 
   constructor(private httpClient: HttpClient) { }

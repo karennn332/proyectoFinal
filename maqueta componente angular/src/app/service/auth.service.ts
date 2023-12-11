@@ -11,7 +11,7 @@ import { JwtDto } from '../model/jwt-dto';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = 'https://portfolio-backend.railway.internal/auth/';
+  URL = 'https://backchallenge-production.up.railway.app/auth/';
 
   constructor(private httpClient:HttpClient) { }
 

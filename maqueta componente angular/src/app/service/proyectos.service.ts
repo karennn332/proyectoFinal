@@ -8,7 +8,7 @@ import { Proyectos } from '../model/proyectos';
 })
 export class ProyectosService {
 
-  URL = 'https://portfolio-backend.railway.internal/proyectos/';
+  URL = 'https://backchallenge-production.up.railway.app/proyectos/';
 
   constructor(private  httpClient : HttpClient) { }
 
