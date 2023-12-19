@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Proyectos challenges/maquetaDashboard"
+		},
+		{
+			"path": "../../../../../../sneat-1.0.0"
+		},
+		{
+			"path": "../../../../../../Proyectos challenges/Maquetas"
+		},
+		{
+			"path": "../../../../../../Proyectos challenges/FirstJobs"
+		},
+		{
+			"path": "../../../../../../FrontChallenge/ChallengeFront"
+		},
+		{
+			"path": "../../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Maquetas"
+	}
+}

@@ -11,7 +11,7 @@ import { JwtDto } from '../model/jwt-dto';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = 'https://backchallenge-production.up.railway.app/auth/';
+  URL = 'https://backendkd.onrender.com/auth/';
 
   constructor(private httpClient:HttpClient) { }
 

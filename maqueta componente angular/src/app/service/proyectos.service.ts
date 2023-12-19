@@ -8,7 +8,7 @@ import { Proyectos } from '../model/proyectos';
 })
 export class ProyectosService {
 
-  URL = 'https://backchallenge-production.up.railway.app/proyectos/';
+  URL = 'https://backendkd.onrender.com/proyectos/';
 
   constructor(private  httpClient : HttpClient) { }
 
